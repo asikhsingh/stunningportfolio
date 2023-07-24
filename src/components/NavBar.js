@@ -10,6 +10,7 @@ import {
   PinterestIcon,
   MoonIcon,
   SunIcon,
+  InstagramIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
@@ -22,7 +23,6 @@ const CustomLink = ({ href, title, className = "" }) => {
       {title}
 
       <span
-      
         className={`
         h-[1px] inline-block w-0 bg-black
         absolute left-0 -bottom-0.5
@@ -77,7 +77,7 @@ const NavBar = () => {
   };
 
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8">
+    <header className="w-full px-32 py-8 font-medium flex items-center justify-between  dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8">
       <button
         className="flex-col justify-center items-center hidden lg:flex"
         onClick={handleCLick}
@@ -103,25 +103,15 @@ const NavBar = () => {
 
       <div className="w-full flex justify-between items-center lg:hidden">
         <nav>
-          <CustomLink href="/" title="Home" className="mr-4" />
-          <CustomLink href="/about" title="About" className="mx-4" />
-          <CustomLink href="/projects" title="Projects" className="mx-4" />
-          <CustomLink href="/articles" title="Articles" className="ml-4" />
+          <CustomLink href="/" title="HOME" className="mr-4 text-sm" />
+          <CustomLink href="/about" title="ABOUT" className="mx-4 text-sm" />
+          <CustomLink href="/projects" title="PROJECTS" className="mx-4 text-sm" />
+          <CustomLink href="/articles" title="ARTICLES" className="ml-4 text-sm" />
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
-          <motion.a
-            href="https://twitter.com/abdalla99393683"
-            target={"_black"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3"
-          >
-            <TwitterIcon />
-          </motion.a>
-
-          <motion.a
-            href="https://github.com/abdallah1936"
+        <motion.a
+            href="https://github.com/asikhsingh"
             target={"_black"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
@@ -131,7 +121,7 @@ const NavBar = () => {
           </motion.a>
 
           <motion.a
-            href="https://www.linkedin.com/in/abdallahawadalla/"
+            href="https://www.linkedin.com/in/sikhamritpalsingh/"
             target={"_black"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
@@ -139,6 +129,31 @@ const NavBar = () => {
           >
             <LinkedInIcon />
           </motion.a>
+
+          <motion.a
+            href="https://twitter.com/uxamrit"
+            target={"_black"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <TwitterIcon />
+          </motion.a>
+
+          <motion.a
+            href="https://instagram.com/uxamrit"
+            target={"_black"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <InstagramIcon/>
+          </motion.a>
+
+
+          
+
+          
 
           {/* <motion.a href='https://www.pinterest.com/awadallaabdallah/' target={"_black"}
             className="w-6 mx-3 bg-light rounded-full"
@@ -148,7 +163,7 @@ const NavBar = () => {
             <PinterestIcon />
           </motion.a>
 
-          <motion.a href='https://dribbble.com/AbdallahAwadalla' target={"_black"}
+          <motion.a href='https://dribbble.com/amritpalsingh' target={"_black"}
             className="w-6 ml-3"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -182,43 +197,33 @@ const NavBar = () => {
           <nav className="flex items-center flex-col justify-center">
             <CustomMobileLink
               href="/"
-              title="Home"
+              title="HOME"
               className=""
               toggle={handleCLick}
             />
             <CustomMobileLink
               href="/about"
-              title="About"
+              title="ABOUT"
               className=""
               toggle={handleCLick}
             />
             <CustomMobileLink
               href="/projects"
-              title="Projects"
+              title="PROJECTS"
               className=""
               toggle={handleCLick}
             />
             <CustomMobileLink
               href="/articles"
-              title="Articles"
+              title="ARTICLES"
               className=""
               toggle={handleCLick}
             />
           </nav>
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
-            <motion.a
-              href="https://twitter.com/abdalla99393683"
-              target={"_black"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-8 mx-3 sm:mx-1"
-            >
-              <TwitterIcon />
-            </motion.a>
-
-            <motion.a
-              href="https://github.com/abdallah1936"
+          <motion.a
+              href="https://github.com/asikhsingh"
               target={"_black"}
               className="w-8 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
               whileHover={{ y: -2 }}
@@ -226,16 +231,30 @@ const NavBar = () => {
             >
               <GithubIcon />
             </motion.a>
-
+            
             <motion.a
-              href="https://www.linkedin.com/in/abdallahawadalla/"
+              href="https://www.linkedin.com/in/sikhamritpalsingh/"
               target={"_black"}
-              className="w-8 mx-3 sm:mx-1"
+              className="w-8 mx-3 sm:mx-1  bg-light rounded-full dark:bg-dark"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
               <LinkedInIcon />
             </motion.a>
+
+            <motion.a
+              href="https://instagram.com/uxamrit"
+              target={"_black"}
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.9 }}
+              className="w-8 mx-3 sm:mx-1  bg-light rounded-full dark:bg-dark"
+            >
+              <InstagramIcon />
+            </motion.a>
+
+            
+
+            
 
             {/* <motion.a href='https://www.pinterest.com/awadallaabdallah/' target={"_black"}
                 className="w-6 mx-3 bg-light rounded-full sm:mx-1"
@@ -245,7 +264,7 @@ const NavBar = () => {
                 <PinterestIcon />
               </motion.a>
 
-              <motion.a href='https://dribbble.com/AbdallahAwadalla' target={"_black"}
+              <motion.a href='https://dribbble.com/amritpalsingh' target={"_black"}
                 className="w-6 ml-3 sm:mx-1"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
@@ -253,7 +272,7 @@ const NavBar = () => {
                 <DribbbleIcon />
               </motion.a> */}
 
-            {/* <button
+            <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
                 className={`ml-2 flex items-center justify-center rounded-full p-2 ${mode === "light" ? "bg-dark text-light"
                 : "bg-light text-dark"}
@@ -264,7 +283,7 @@ const NavBar = () => {
                     <SunIcon className={"fill-dark"} />
                     : <MoonIcon className={"fill-dark"} />
                 }
-              </button> */}
+              </button>
           </nav>
         </motion.div>
       ) : null}
