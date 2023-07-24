@@ -53,25 +53,41 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
           <Details
-            position="Warehouse Manager" 
-            company="Napolitana Foods/Troia Foods"
-            companyLink="https://www.troiafoods.com/"
-            time="2017-2023"
-            address=" Hayward, CA"
-            work="Optimized inventory management and distribution processes, resulting in a 15% reduction in shrinkage.
-            Successfully coordinated multiple projects concurrently in a deadline-driven environment.
-            Trained 4 new employees and established a new onboarding flow
+            position="UX Lead" 
+            company="Stocate"
+            companyLink="https://stocate.com/"
+            time="2023-Present"
+            address=" Montreal, Quebec"
+            work="- Lead and oversee UX activities such as strategy workshops, user/design research, beacon research, and identification of opportunities to differentiate.
+            - Create and effectively present UX artifacts (journeys, sketches, wireframes, journey maps, low and mid-fidelity renderings, clickable prototypes, storyboards, etc.) to stakeholders, clients, and teams.
+            - Test and validate deliverables with users through usability testing and participating in design reviews.
+            - Collaborate with the development team to build & productionize for market while maintaining UX best practices.
+            - Working in an Agile team and completing committed backlog items within the agreed upon timeframe
             "
           />
 
           <Details
-            position="Manager" 
-            company="Nizarios Pizza"
-            companyLink="http://nizarios.com/"
-            time="2016-2017"
-            address=" San Francisco, CA"
-            work="Grew monthly sales by 10% by focusing on catering orders and a focus on improved customer service.
-            Optimized restaurant presence on 3rd party delivery apps leading to a 20% increase on DoorDash and UberEats platforms."
+            position="UX/UI Designer" 
+            company="Stocate"
+            companyLink="https://stocate.com/"
+            time="2021-2022"
+            address=" Montreal, Quebec"
+            work="-Conducted user research and gathered insights to inform design decisions, resulting in improved user experiences.
+            -Designed intuitive and engaging interaction interfaces through wireframes and prototypes, ensuring seamless navigation and functionality.
+            -Structured information architecture and implemented effective content hierarchies, enhancing user accessibility and comprehension.
+            -Evaluated usability through heuristic evaluations and user testing, identifying areas for improvement and driving iterative design enhancements."
+          />
+
+<Details
+            position="Ecommerce Web Developer" 
+            company="Mosiac North America"
+            companyLink="https://digitalmainstreet.ca/"
+            time="2021-Present"
+            address=" Toronto, ON"
+            work="-Conducted user research and gathered insights to inform design decisions, resulting in improved user experiences.
+            -Designed intuitive and engaging interaction interfaces through wireframes and prototypes, ensuring seamless navigation and functionality.
+            -Structured information architecture and implemented effective content hierarchies, enhancing user accessibility and comprehension.
+            -Evaluated usability through heuristic evaluations and user testing, identifying areas for improvement and driving iterative design enhancements."
           />
         </ul>
       </div>
