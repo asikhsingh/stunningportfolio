@@ -66,7 +66,7 @@ const Projects = () => {
   };
 
   return (
-    <header className="w-full pr-2 py-4 font-medium flex items-center justify-between bg-light dark:text-light dark:bg-dark relative z-10 lg:px-8 md:px-8 sm:pl-2 sm:py-0">
+    <header className="w-full pr-2 py-4 font-medium flex items-center justify-between md:pr-2 bg-light dark:text-light dark:bg-dark relative z-10 lg:px-8 md:px-8 sm:pl-2 sm:py-0">
       {/* <button
         className="flex-col justify-center items-center hidden lg:flex"
         onClick={handleCLick}
@@ -95,7 +95,7 @@ const Projects = () => {
           
           <CustomLink href="/projects" title="PROJECTS" className='flex items-center bg-dark text-light p-2.5  px-16 rounded-lg text-sm font-semibold hover:bg-primary hover:text-light border border-solid dorder-transparent hover:border-dark
                 
-                dark:bg-light dark:text-dark dark:hover:bg-primary dark:hover:text-light dark:border-light md:p-2.5 md:px-4 md:text-sm
+                dark:bg-light dark:text-dark dark:hover:bg-primary dark:hover:text-light dark:border-light md:p-2 md:px-10 md:text-sm 
 
                 '/>
           

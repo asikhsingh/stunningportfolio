@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <TransitionEffect />
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light dark:bg-dark'>
-        <Layout className='pt-2 md:p-16 sm:pt-8'>
+        <Layout className='pt-2 md:p-2 sm:pt-0'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2 md:w-full'>
               <Image src={profilePic} alt="Amritpal Singh" className='w-full h-auto lg:hidden md:inline-block md:w-full' priority
@@ -57,12 +57,12 @@ export default function Home() {
                 </Link> */}
                 <Projects /> 
                 <Link href="https://calendly.com/sikhamritpalsingh/30min" target={'_blank'}
-                className='/=flex items-center bg-light text-dark p-2.5 px-10 rounded-lg text-sm font-semibold hover:bg-primary hover:text-light border border-solid border-dark hover:border-light
+                className='/=flex items-center bg-light text-dark p-2.5 px-6 rounded-lg text-sm font-semibold hover:bg-primary hover:text-light border border-solid border-dark hover:border-light
                 
-                dark:bg-dark dark:text-light dark:hover:bg-primary dark:hover:text-light dark:border-light md:p-2 md:px-4 md:text-base
+                dark:bg-dark dark:text-light dark:hover:bg-primary dark:hover:text-light dark:border-light md:p-2 md:px-4 md:text-sm
 
                 '
-                >CONSULT</Link>
+                >CONSULTATION</Link>
 
               </div>
             </div>
