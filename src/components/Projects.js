@@ -66,7 +66,7 @@ const Projects = () => {
   };
 
   return (
-    <header className="w-full pr-2 py-4 font-medium flex items-center justify-between md:pr-2 bg-light dark:text-light dark:bg-dark relative z-10 lg:px-8 md:px-8 sm:pl-2 sm:py-0">
+    <header className="w-full pr-4 py-4 font-medium flex items-center justify-between md:pr-2 bg-light dark:text-light dark:bg-dark relative z-10 lg:px-8 md:px-8 sm:pl-2 sm:py-0">
       {/* <button
         className="flex-col justify-center items-center hidden lg:flex"
         onClick={handleCLick}
