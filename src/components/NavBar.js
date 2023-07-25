@@ -112,7 +112,7 @@ const NavBar = () => {
 
         <nav className="flex items-center justify-center flex-wrap">
         <motion.a
-            href="https://github.com/asikhsingh"
+            href="mailto:uxd@amritpalsingh.ca"
             target={"_black"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
