@@ -11,6 +11,7 @@ import {
   MoonIcon,
   SunIcon,
   InstagramIcon,
+  EmailIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
@@ -110,6 +111,15 @@ const NavBar = () => {
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
+        <motion.a
+            href="https://github.com/asikhsingh"
+            target={"_black"}
+            className="w-6 mx-3"
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <EmailIcon/>
+          </motion.a>
         <motion.a
             href="https://github.com/asikhsingh"
             target={"_black"}
