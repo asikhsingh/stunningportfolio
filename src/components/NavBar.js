@@ -102,11 +102,12 @@ const NavBar = () => {
         ></span>
       </button>
 
-      <div className="w-full flex justify-between items-center lg:hidden">
+      <div className="w-full flex justify-between items-center lg:hidden ">
         <nav>
           <CustomLink href="/" title="HOME" className="mr-4 text-sm" />
+          <CustomLink href="/projects" title="WEB PROJECTS" className="mx-4 text-sm" />
+          <CustomLink href="/aimlwork" title="AI/ML WORK" className="mx-4 text-sm" />
           <CustomLink href="/about" title="ABOUT" className="mx-4 text-sm" />
-          <CustomLink href="/projects" title="PROJECTS" className="mx-4 text-sm" />
           <CustomLink href="/articles" title="ARTICLES" className="ml-4 text-sm" />
         </nav>
 
