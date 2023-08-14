@@ -332,7 +332,7 @@ const Projects = () => {
           >
             
 
-            <div className="col-span-12">
+            {/* <div className="col-span-12">
               <CustomBlock
                 title="STUNNING PORTFOLIO"
                 img={project4}
@@ -341,8 +341,8 @@ const Projects = () => {
                 github="https://github.com/asikhsingh/stunningportfolio"
                 type="Web Design & Developement"
               />
-            </div>
-            {/* <div className="col-span-12">
+            </div> */}
+            <div className="col-span-12">
               <FeaturedProjects
                 title="MAP MALL APP"
                 img={project2}
@@ -351,8 +351,8 @@ const Projects = () => {
                 github=""
                 type="User Experience"
               />
-            </div> */}
-            {/* <div className="col-span-12">
+            </div>
+            <div className="col-span-12">
               <FeaturedProjects
                 title="PERILLAS RESTAURANT"
                 img={project3}
@@ -361,7 +361,7 @@ const Projects = () => {
                 github=""
                 type="User Experience"
               />
-            </div> */}
+            </div>
 
 
             {/* <div
@@ -379,38 +379,7 @@ const Projects = () => {
                 type="User Experience"
               />
             </div> */}
-  <div
-              className="col-span-6
-            sm:col-span-12"
-            >
-
-              
-              <Project
-                title="FRIENDLY ECO"
-                img={friendlyeco}
-                summary=""
-                link="https://friendly.eco/"
-                github=""
-                type="Web Design & Development"
-              />
-            </div>
-
-
-            <div
-              className="col-span-6
-            sm:col-span-12"
-            >
-
-              
-              <Project
-                title="LUGANO COFFEE"
-                img={lugano}
-                summary=""
-                link="https://luganocaffe.ca/"
-                github=""
-                type="Web Design & Development"
-              />
-            </div>
+{/* 
             <div
               className="col-span-12 
             sm:col-span-12"
@@ -421,7 +390,7 @@ const Projects = () => {
                 title="NATURALLY MADE BY MEL"
                 img={nmbm}
                 summary=""
-                link="https://naturallymadebymel.ca/"
+                link="https://amritpalasingh.wixsite.com/home/perillas"
                 github=""
                 type="Web Design & Development"
               />
@@ -436,7 +405,7 @@ const Projects = () => {
                 title="ATLAS 28"
                 img={atlas28}
                 summary=""
-                link="https://www.atlas28.com/"
+                link="https://amritpalasingh.wixsite.com/home/perillas"
                 github=""
                 type="Web Design & Development"
               />
@@ -453,13 +422,44 @@ const Projects = () => {
                 title="LUXRINT"
                 img={luxrint}
                 summary=""
-                link="https://www.luxrint.com/"
+                link="https://amritpalasingh.wixsite.com/home/perillas"
                 github=""
                 type="Web Design & Development"
               />
             </div>
 
-          
+            <div
+              className="col-span-6
+            sm:col-span-12"
+            >
+
+              
+              <Project
+                title="FRIENDLY ECO"
+                img={friendlyeco}
+                summary=""
+                link="https://amritpalasingh.wixsite.com/home/perillas"
+                github=""
+                type="Web Design & Development"
+              />
+            </div>
+
+
+            <div
+              className="col-span-6
+            sm:col-span-12"
+            >
+
+              
+              <Project
+                title="LUGANO COFFEE"
+                img={lugano}
+                summary=""
+                link="https://amritpalasingh.wixsite.com/home/perillas"
+                github=""
+                type="Web Design & Development"
+              />
+            </div> */}
           
             {/* <div className="col-span-6 sm:col-span-12">
               <Project

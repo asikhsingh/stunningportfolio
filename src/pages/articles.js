@@ -8,14 +8,14 @@ import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import HireMe from '@/components/HireMe'
 
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article2 from "../../public/images/articles/smooth scrolling in reactjs.png";
-import article3 from "../../public/images/articles/smooth scrolling in reactjs.png";
-import article4 from "../../public/images/articles/smooth scrolling in reactjs.png";
-import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
-import article6 from "../../public/images/articles/smooth scrolling in reactjs.png";
-import article7 from "../../public/images/articles/smooth scrolling in reactjs.png";
-import article8 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import article1 from "../../public/images/articles/pagination.jpg";
+import article2 from "../../public/images/articles/smooth.png";
+import article3 from "../../public/images/articles/smooth.png";
+import article4 from "../../public/images/articles/smooth.png";
+import article5 from "../../public/images/articles/smooth.png";
+import article6 from "../../public/images/articles/smooth.png";
+import article7 from "../../public/images/articles/smooth.png";
+import article8 from "../../public/images/articles/smooth.png";
 import Footer from "@/components/Footer";
 
 const FramerImage = motion(Image);
