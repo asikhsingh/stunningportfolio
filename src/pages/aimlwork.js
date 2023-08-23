@@ -334,7 +334,7 @@ const Projects = () => {
                 title="CHAT & DIALOGUE SUMMARIZATION APP"
                 img={project4}
                 summary=""
-                link="https://amritpalsingh.ca"
+                link="https://github.com/asikhsingh/chat-summarization-app"
                 github="https://github.com/asikhsingh/chat-summarization-app"
                 type="Generative AI"
               />
@@ -351,8 +351,8 @@ const Projects = () => {
                 title="INSTRUCT-TUNNING OPEN LLAMA"
                 img={openllama}
                 summary=""
-                link="https://amritpalasingh.wixsite.com/home/perillas"
-                github=""
+                link="https://colab.research.google.com/drive/1SRclU2pcgzCkVXpmhKppVbGW4UcCs5xT?usp=sharing"
+                github="https://github.com/asikhsingh/Insllama-Markemail"
                 type="Generative AI"
               />
             </div>
@@ -366,8 +366,8 @@ const Projects = () => {
                 title="MARKETING-MAIL AI ASSISTANT"
                 img={marketingemail}
                 summary=""
-                link="https://amritpalasingh.wixsite.com/home/perillas"
-                github=""
+                link="https://colab.research.google.com/drive/1ARmlaZZaKyAg6HTi57psFLPeh0hDRcPX?usp=sharing"
+                github="https://github.com/asikhsingh/Insllama-Markemail"
                 type="Generative AI"
               />
             </div>
