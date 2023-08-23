@@ -335,7 +335,7 @@ const Projects = () => {
                 img={project4}
                 summary=""
                 link="https://amritpalsingh.ca"
-                github="https://github.com/asikhsingh/stunningportfolio"
+                github="https://github.com/asikhsingh/chat-summarization-app"
                 type="Generative AI"
               />
             </div>
