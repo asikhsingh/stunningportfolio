@@ -377,8 +377,8 @@ const Projects = () => {
                 title="MEDICAL AI CHATBOT"
                 img={medicalaichatbot}
                 summary=""
-                link="https://amritpalasingh.wixsite.com/home/mall-map-app"
-                github=""
+                link="https://github.com/asikhsingh/medical-chatbot-llama2"
+                github="https://github.com/asikhsingh/medical-chatbot-llama2"
                 type="Generative AI"
               />
             </div>
@@ -406,8 +406,8 @@ const Projects = () => {
                 title="AI ENABLED SEMANTIC SEARCH"
                 img={project11}
                 summary=""
-                link="https://amritpalasingh.wixsite.com/home/perillas"
-                github=""
+                link="https://github.com/asikhsingh/aisemsearch"
+                github="https://github.com/asikhsingh/aisemsearch"
                 type="Generative AI"
               />
             </div>
@@ -418,11 +418,11 @@ const Projects = () => {
 
               
               <Project
-                title="MULTI PDF-CHAT APP"
+                title="MULTI-PDF CHAT APP"
                 img={project12}
                 summary=""
-                link="https://amritpalasingh.wixsite.com/home/perillas"
-                github=""
+                link="https://github.com/asikhsingh/multipdf-chat-app"
+                github="https://github.com/asikhsingh/multipdf-chat-app"
                 type="Generative AI"
               />
             </div>
